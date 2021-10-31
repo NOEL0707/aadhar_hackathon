@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-wrap: break-word;
+    font-family: 'Urbanist', sans-serif;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 200px;
+}
+button[disabled=disabled], button:disabled {
+      opacity: 0.6;
+  cursor: not-allowed;
+  
+}
+
+input[type="text"]:disabled {
+  background:#ccc ;
+  color: aliceblue;
+  cursor:not-allowed;
+  font-size: larger;
+}
+input[input="number"]:disabled {
+  background: lightcyan;
+}

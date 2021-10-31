@@ -1,0 +1,148 @@
+.Form {
+  /* background: #e7ebe0ff; */
+  background-color: white;
+  display : flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px;
+  border:1px solid #e7e9f5;
+  border-top: 0px;
+  border-radius: 10px;
+
+}
+/* .css-2b097c-container{
+  position: absolute;
+} */
+.Form .Title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.forminput {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+
+  box-sizing: border-box;
+  padding:10px;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.125);
+  align-items: center;
+}
+
+.forminput label {
+  width: 180px;
+  margin-right: auto;
+  font-size: 20px;
+}
+.forminput .input,
+.forminput textarea {
+  width: 90%;
+  outline: none;
+  border: 2px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+
+.forminput .checkinput {
+  display: inline-block;
+  color: red;
+  font-size: 8px;
+}
+
+.forminput .input {
+  overflow: auto;
+}
+.forminput textarea {
+  resize: none;
+  height: 180px;
+}
+
+.forminput select {
+  border-radius: 0px;
+  border: 0px;
+}
+
+.forminput .select {
+  display: inline-block;
+  width: 102%;
+  outline: none;
+  border: 2px solid #d5dbd9;
+  font-size: 15px;
+  padding: 1px 1px;
+  border-radius: 3px;
+  transition: 0.3s ease;
+  background-color: white;
+ 
+  z-index: 0;
+}
+
+.forminput .input:focus,
+.forminput textarea:focus {
+  border: 2px solid black;
+
+}
+
+.forminput .select:hover {
+  border: 2px solid black;
+}
+
+.Form .btn {
+  width: fit-content;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background-color: blueviolet;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  align-content: center;
+}
+.Form .btndiv:last-child {
+  margin-bottom: 0;
+}
+
+.Form .btn:hover {
+  background-color: lightpink;
+}
+
+.btndiv button {
+  margin: auto;
+  display: block;
+}
+.filebox{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display:flex;
+  box-sizing:border-box;
+  padding-left:20px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.125);
+
+  
+}
+.filename{
+  align-self: center;
+  width:80%;
+  overflow-wrap: break-word;
+}
+.cancel{
+  margin-left: auto;
+  align-self: flex-start;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.filediv{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.dropdown-container{
+  z-index:2;
+}
+
+
