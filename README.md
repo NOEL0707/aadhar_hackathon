@@ -23,6 +23,7 @@ This command installs a package and any packages that it depends on.
 you can find more about it here:https://docs.npmjs.com/cli/v7/commands/npm-install
 ### `npm start`
 
+dont forget to update the jar files they are impotant to run the login steps.
 Runs the server in the development mode.\
 Open [http://localhost:4444](http://localhost:4444) to view it in the browser.
 
